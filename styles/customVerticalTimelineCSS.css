@@ -1,0 +1,7 @@
+.vertical-timeline::before { 
+  left: 24px;
+}
+
+.vertical-timeline-element-icon {
+  left: 5px;
+}
