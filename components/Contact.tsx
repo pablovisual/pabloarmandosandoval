@@ -95,7 +95,6 @@ function Contact(): ReactElement {
           </Formik>
         </div>
 
-
         <div className="mt-8 lg:hidden"><Divider><Chip className="bg-gradient-to-r from-[rgb(126,232,250)] via-[rgb(127,244,181)] to-[rgb(128,255,114)]" label="OR" /></Divider></div>
 
         <div><Divider className="hidden lg:flex " orientation="vertical"><Chip className="bg-gradient-to-r from-[rgb(126,232,250)] via-[rgb(127,244,181)] to-[rgb(128,255,114)]" label="OR" /></Divider></div>
