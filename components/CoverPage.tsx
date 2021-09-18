@@ -7,7 +7,7 @@ import Typical from "react-typical";
 
 function CoverPage(): ReactElement {
   return (
-    <div style={{backgroundImage: "none" }} className="h-screen flex justify-center items-center">
+    <div style={{backgroundImage: "none" }} className="max-h-screen min-h-screen h-full flex justify-center items-center">
       <Image alt="" src={CS} layout="fill" />
       <div className="absolute text-center p-2">
         <Typical 

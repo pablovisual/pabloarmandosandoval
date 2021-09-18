@@ -97,7 +97,7 @@ function Contact(): ReactElement {
 
         <div className="mt-8 lg:hidden"><Divider><Chip className="bg-gradient-to-r from-[rgb(126,232,250)] via-[rgb(127,244,181)] to-[rgb(128,255,114)]" label="OR" /></Divider></div>
 
-        <div><Divider className="hidden md:hidden lg:flex " orientation="vertical"><Chip className="bg-gradient-to-r from-[rgb(126,232,250)] via-[rgb(127,244,181)] to-[rgb(128,255,114)]" label="OR" /></Divider></div>
+        <div className="hidden md:hidden lg:flex"><Divider orientation="vertical"><Chip className="bg-gradient-to-r from-[rgb(126,232,250)] via-[rgb(127,244,181)] to-[rgb(128,255,114)]" label="OR" /></Divider></div>
 
         <div className="flex flex-col lg:hidden justify-center py-6">
           <h1 className="text-center text-3xl font-bold">Look Me Up</h1>
