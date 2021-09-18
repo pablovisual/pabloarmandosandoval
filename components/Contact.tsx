@@ -1,4 +1,5 @@
 //@ts-nocheck
+//@ts-nocheck
 import React, { ReactElement } from 'react';
 import * as emailjs from "emailjs-com";
 import REcaptcha from "react-google-recaptcha";
@@ -55,7 +56,7 @@ function Contact(): ReactElement {
     <div id="/contacts" className="flex flex-col justify-center items-center mb-4 mt-4 snap-start">
       <div className="bg-white w-4/5 md:w-3/5 lg:w-9/12 flex flex-col lg:flex-row justify-center rounded-2xl p-4">
         <div className="flex flex-col w-full xl:w-1/2">
-          <h1 className="text-center text-3xl font-bold">Let's Talk</h1>
+          <h1 className="text-center text-3xl font-bold">Let&apos;s Talk</h1>
           <Formik initialValues={initialValues} validationSchema={SuccessEmailSchema} onSubmit={(values, { resetForm }) => { sendEmail(values); resetForm(); }}>
             {({ values, errors, touched }) => (
               <Form className="flex flex-col w-full items-center space-y-6 mt-4">
