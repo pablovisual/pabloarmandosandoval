@@ -1,6 +1,8 @@
 import React, { ReactElement } from 'react'
 import Image from "next/image";
 import CS from "../images/compsci.jpg";
+
+//@ts-ignore
 import Typical from "react-typical";
 
 function CoverPage(): ReactElement {
