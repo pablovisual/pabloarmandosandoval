@@ -1,6 +1,6 @@
 //@ts-nocheck
 import * as React from "react";
-import  { CodeIcon }  from "@heroicons/react/outline";
+import  { VscFileCode }  from "react-icons/vsc";
 import { AcademicCapIcon } from "@heroicons/react/outline";
 import { VerticalTimelineElement, VerticalTimelineElementProps } from "react-vertical-timeline-component";
 
@@ -26,7 +26,7 @@ export const projectList: List[] = [
       contentStyle: { background: 'white', color: 'black', borderTop: "6px solid rgb(47, 216, 29)", borderRadius: "1rem" },
       contentArrowStyle: { borderRight: '7px solid  white' },
       iconStyle: { background: 'rgb(128, 255, 114)' },
-      icon: <CodeIcon className="text-white" />,
+      icon: <VscFileCode className="text-white" />,
       key: 1,
     },
 
@@ -63,7 +63,7 @@ export const projectList: List[] = [
       contentStyle: { background: 'white', color: 'black', borderTop: "6px solid rgb(47, 216, 29)", borderRadius: "1rem" },
       contentArrowStyle: { borderRight: '7px solid  white' },
       iconStyle: { background: 'rgb(128, 255, 114)', color: '#fff' },
-      icon: <CodeIcon className="text-white" />,
+      icon: <VscFileCode className="text-white" />,
       key: 2,
     },
     title: 'whatsapp v2',
@@ -97,7 +97,7 @@ export const projectList: List[] = [
       contentStyle: { background: 'white', color: 'black', borderTop: "6px solid rgb(47, 216, 29)", borderRadius: "1rem" },
       contentArrowStyle: { borderRight: '7px solid  white' },
       iconStyle: { background: 'rgb(128, 255, 114)', color: '#fff' },
-      icon: <CodeIcon className="text-white" />,
+      icon: <VscFileCode className="text-white" />,
       key: 3,
     },
     title: 'Linkedin Clone',
@@ -131,7 +131,7 @@ export const projectList: List[] = [
       contentStyle: { background: 'white', color: 'black', borderTop: "6px solid rgb(47, 216, 29)", borderRadius: "1rem" },
       contentArrowStyle: { borderRight: '7px solid  white' },
       iconStyle: { background: 'rgb(128, 255, 114)', color: '#fff' },
-      icon: <CodeIcon className="text-white" />,
+      icon: <VscFileCode className="text-white" />,
       key: 4,
     },
     title: 'Twitter Clone',
@@ -165,7 +165,7 @@ export const projectList: List[] = [
       contentStyle: { background: 'white', color: 'black', borderTop: "6px solid rgb(47, 216, 29)", borderRadius: "1rem" },
       contentArrowStyle: { borderRight: '7px solid  white' },
       iconStyle: { background: 'rgb(128, 255, 114)', color: '#fff' },
-      icon: <CodeIcon className="text-white" />,
+      icon: <VscFileCode className="text-white" />,
       key: 5,
     },
     title: 'Facebook Clone',
@@ -199,7 +199,7 @@ export const projectList: List[] = [
       contentStyle: { background: 'white', color: 'black', borderTop: "6px solid rgb(47, 216, 29)", borderRadius: "1rem" },
       contentArrowStyle: { borderRight: '7px solid  white' },
       iconStyle: { background: 'rgb(128, 255, 114)', color: '#fff' },
-      icon: <CodeIcon className="text-white" />,
+      icon: <VscFileCode className="text-white" />,
       key: 6,
     },
     title: 'Discord clone',
@@ -233,7 +233,7 @@ export const projectList: List[] = [
       contentStyle: { background: 'white', color: 'black', borderTop: "6px solid rgb(47, 216, 29)", borderRadius: "1rem" },
       contentArrowStyle: { borderRight: '7px solid  white' },
       iconStyle: { background: 'rgb(128, 255, 114)', color: '#fff' },
-      icon: <CodeIcon className="text-white" />,
+      icon: <VscFileCode className="text-white" />,
       key: 7,
     },
     title: 'Amazon Clone',
@@ -267,7 +267,7 @@ export const projectList: List[] = [
       contentStyle: { background: 'white', color: 'black', borderTop: "6px solid rgb(47, 216, 29)", borderRadius: "1rem" },
       contentArrowStyle: { borderRight: '7px solid  white' },
       iconStyle: { background: 'rgb(128, 255, 114)', color: '#fff' },
-      icon: <CodeIcon className="text-white" />,
+      icon: <VscFileCode className="text-white" />,
       key: 8,
     },
     title: "My website",
