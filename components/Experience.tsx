@@ -29,7 +29,7 @@ function Experience(): ReactElement {
           </div>
 
           <div>
-            <Image src={UTRGV} height={132} width={100} />
+            <Image alt="" src={UTRGV} height={132} width={100} />
           </div>
 
         </div>

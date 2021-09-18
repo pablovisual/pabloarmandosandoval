@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, { ReactElement, useState } from 'react';
 import about from "../images/about.jpg";
 import Image from "next/image";
@@ -16,7 +17,7 @@ function About(): ReactElement {
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
         <div className="flex justify-center">
           <div className="container bg-white w-3/4 md:w-3/5 flex flex-col rounded-2xl mb-4">
-            <Image src={about} className="rounded-t-2xl" height={1200} width={1920} />
+            <Image alt="" src={about} className="rounded-t-2xl" height={1200} width={1920} />
 
             <div className="flex items-center justify-center">
               <p className="uppercase font-bold text-3xl p-2">About Me</p>

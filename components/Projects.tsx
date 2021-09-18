@@ -7,7 +7,7 @@ import { Button } from "@mui/material";
 
 function Projects(): ReactElement  {
   const getTimeLineElements = () => projectList.map((element, index: number) => (
-    <VerticalTimelineElement id="/projects" {...element.props}>
+    <VerticalTimelineElement key={1} id="/projects" {...element.props}>
       <div className="flex flex-wrap gap-x-4">
         {element.tools.map((toolNames, index: number) => (<p key={index} className="flex justify-center items-center bg-gray-300 rounded-full p-2.5 text-center">{toolNames}</p>))}
       </div>
@@ -17,7 +17,7 @@ function Projects(): ReactElement  {
 
       <div className="flex space-x-4">
         {element.sourceButtons.sources.map((source, index: number) => (
-          <Button className="bg-gradient-to-r from-[rgb(126,232,250)] via-[rgb(127,244,181)] to-[rgb(128,255,114)]" target="_blank" rel="noopener noreferrer" href={source.Link} key={index} variant="outlined" style={{ color: 'rgb(0, 0, 0)', border: '2px solid rgb(0, 0, 0)' }}>
+          <Button  className="bg-gradient-to-r from-[rgb(126,232,250)] via-[rgb(127,244,181)] to-[rgb(128,255,114)]" target="_blank" rel="noopener noreferrer" href={source.Link} key={index} variant="outlined" style={{ color: 'rgb(0, 0, 0)', border: '2px solid rgb(0, 0, 0)' }}>
             {source.Title}
           </Button>
         ))}

@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, { ReactElement } from 'react';
 import * as emailjs from "emailjs-com";
 import REcaptcha from "react-google-recaptcha";

@@ -15,7 +15,7 @@ function Skills(): ReactElement {
           <div className="bg-white rounded-b-2xl p-2">
             {skills.programmingLanguages.map((skill: any, index: number) => (
               <a href={skill.link} target="_blank" rel="noopener noreferrer" key={index} className="flex items-center space-x-4 p-4 xl:mb-3 xl:hover:bg-gray-200 xl:hover:rounded-full group">
-                <Image src={skill.svgSrc} height={60} width={60} className="xl:group-hover:animate-pulse" />
+                <Image alt="" src={skill.svgSrc} height={60} width={60} className="xl:group-hover:animate-pulse" />
                 <p className="font-bold text-2xl lg:text-base">{skill.skillName}</p>
               </a>
             ))}
@@ -33,7 +33,7 @@ function Skills(): ReactElement {
           <div className="bg-white rounded-b-2xl p-2">
             {skills.frontend.map((skill: any, index: number) => (
               <a href={skill.link} target="_blank" rel="noopener noreferrer" key={index} className="flex items-center space-x-4 p-4 xl:mb-3 xl:hover:bg-gray-200 xl:hover:rounded-full group">
-                <Image src={skill.svgSrc} height={60} width={60} className="xl:group-hover:animate-pulse" />
+                <Image alt="" src={skill.svgSrc} height={60} width={60} className="xl:group-hover:animate-pulse" />
                 <p className="font-bold text-2xl lg:text-base">{skill.skillName}</p>
               </a>
             ))}
@@ -52,7 +52,7 @@ function Skills(): ReactElement {
             <div className="bg-white rounded-b-2xl p-2">
               {skills.backend.map((skill: any, index: number) => (
                 <a href={skill.link} target="_blank" rel="noopener noreferrer" key={index} className="flex items-center space-x-4 p-4 xl:mb-3 xl:hover:bg-gray-200 xl:hover:rounded-full group">
-                  <Image src={skill.svgSrc} height={60} width={60} className="xl:group-hover:animate-pulse" />
+                  <Image alt="" src={skill.svgSrc} height={60} width={60} className="xl:group-hover:animate-pulse" />
                   <p className="font-bold text-2xl lg:text-base">{skill.skillName}</p>
                 </a>
               ))}
@@ -69,7 +69,7 @@ function Skills(): ReactElement {
             <div className="bg-white rounded-b-2xl p-2">
               {skills.databases.map((skill: any, index: number) => (
                 <a href={skill.link} target="_blank" rel="noopener noreferrer" key={index} className="flex items-center space-x-4 p-4 xl:mb-3 xl:hover:bg-gray-200 xl:hover:rounded-full group">
-                  <Image src={skill.svgSrc} height={60} width={60} className="xl:group-hover:animate-pulse" />
+                  <Image alt="" src={skill.svgSrc} height={60} width={60} className="xl:group-hover:animate-pulse" />
                   <p className="font-bold text-2xl lg:text-base">{skill.skillName}</p>
                 </a>
               ))}
@@ -86,7 +86,7 @@ function Skills(): ReactElement {
             <div className="bg-white rounded-b-2xl p-2">
               {skills.hostingPlatforms.map((skill: any, index: number) => (
                 <a href={skill.link} target="_blank" rel="noopener noreferrer" key={index} className="flex items-center space-x-4 p-4 xl:mb-3 xl:hover:bg-gray-200 xl:hover:rounded-full group">
-                  <Image src={skill.svgSrc} height={60} width={60} className="xl:group-hover:animate-pulse" />
+                  <Image alt="" src={skill.svgSrc} height={60} width={60} className="xl:group-hover:animate-pulse" />
                   <p className="font-bold text-2xl lg:text-base">{skill.skillName}</p>
                 </a>
               ))}
@@ -105,7 +105,7 @@ function Skills(): ReactElement {
           <div className="bg-white rounded-b-2xl p-2">
             {skills.versionControl.map((skill: any, index: number) => (
               <a href={skill.link} target="_blank" rel="noopener noreferrer" key={index} className="flex items-center space-x-4 p-4 xl:mb-3 xl:hover:bg-gray-200 xl:hover:rounded-full group">
-                <Image src={skill.svgSrc} height={60} width={60} className="xl:group-hover:animate-pulse" />
+                <Image alt="" src={skill.svgSrc} height={60} width={60} className="xl:group-hover:animate-pulse" />
                 <p className="font-bold text-2xl lg:text-base">{skill.skillName}</p>
               </a>
             ))}
