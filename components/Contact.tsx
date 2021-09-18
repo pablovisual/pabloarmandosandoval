@@ -84,7 +84,7 @@ function Contact(): ReactElement {
 
                 <div className="">
                   <REcaptcha
-                    sitekey={process.env.CAPTCHA_SITE_KEY}
+                    sitekey={`${process.env.CAPTCHA_SITE_KEY}`}
                   />
                   {errors.recaptcha && touched.recaptcha ? (<div className="text-red-500">{errors.recaptcha}</div>) : null}
                 </div>
@@ -94,6 +94,7 @@ function Contact(): ReactElement {
             )}
           </Formik>
         </div>
+
 
         <div className="mt-8 lg:hidden"><Divider><Chip className="bg-gradient-to-r from-[rgb(126,232,250)] via-[rgb(127,244,181)] to-[rgb(128,255,114)]" label="OR" /></Divider></div>
 
