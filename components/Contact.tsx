@@ -82,7 +82,7 @@ function Contact(): ReactElement {
 
                 <div className="">
                   <REcaptcha
-                    sitekey={process.env.CAPTCHA_SITE_KEY}
+                    sitekey={`${process.env.CAPTCHA_SITE_KEY}`}
                   />
                   {errors.recaptcha && touched.recaptcha ? (<div className="text-red-500">{errors.recaptcha}</div>) : null}
                 </div>
