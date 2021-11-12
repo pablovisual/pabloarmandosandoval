@@ -27,9 +27,9 @@ function About(): ReactElement {
         </div>
 
         <div className="flex justify-center">
-          <div className="container bg-white w-1/2 md:w-3/5 flex flex-col rounded-md mb-4 p-4 shadow-lg">
-            <h3 className="text-center text-sm lg:text-3xl p-2 text-black">Hello, my name is Pablo Armando Sandoval</h3>
-            <p className="text-xs lg:text-3xl p-2">I am an inspired software developer who is driven to create amazing applications
+          <div className="container bg-white w-3/4 md:w-3/5 flex flex-col rounded-2xl mb-4 p-4">
+            <h3 className="text-center text-md lg:text-3xl p-2 text-black">Hello, my name is Pablo Armando Sandoval</h3>
+            <p className="text-sm lg:text-3xl p-2">I am an inspired software developer who is driven to create amazing applications
               and learn new types of frameworks and programming languages. I&apos;ve learned
               <strong> Reactjs</strong>, <strong>Nextjs</strong>; <strong>tailwindcss </strong> 
               to make it easier to add css into html. <strong>Firebase</strong> for authentication 

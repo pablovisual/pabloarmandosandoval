@@ -16,7 +16,7 @@ function HeaderOptions({ Icon, title, onClick, LinkToSection }: Props): ReactEle
         {Icon}
       </div>
 
-      <p className="uppercase font-bold"><Link to={`${LinkToSection}`} smooth={true} duration={2000}>{title}</Link></p>
+      <p className="uppercase font-bold"><Link onClick={onClick} to={`${LinkToSection}`} smooth={true} duration={2000}>{title}</Link></p>
     </div>
   )
 }

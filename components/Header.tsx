@@ -36,17 +36,17 @@ function Header(): ReactElement {
         <HeaderOptions Icon={<BriefcaseIcon className="h-6" />} title="experience" LinkToSection="/experience" />
         <HeaderOptions Icon={<FolderIcon className="h-6" />} title="projects" LinkToSection="/projects" />
         <HeaderOptions Icon={<AcademicCapIcon className="h-6" />} title="education" LinkToSection="/education" />
-        <HeaderOptions Icon={<PhoneIcon className="h-6" />} title="contact" LinkToSection="/contact" />
+        <HeaderOptions Icon={<PhoneIcon className="h-6" />} title="contact" LinkToSection="/contacts" />
       </div>
 
 
       <div ref={contentSpace} style={{ maxHeight: `${height}` }} className="flex w-full flex-col uppercase overflow-y-hidden lg:hidden space-y-2 transition-max-height duration-700 ease-in">
-        <HeaderOptions title="about" LinkToSection="/about" />
-        <HeaderOptions title="skills" LinkToSection="/skills" />
-        <HeaderOptions title="experience" LinkToSection="/experience" />
-        <HeaderOptions title="projects" LinkToSection="/projects" />
-        <HeaderOptions title="education" LinkToSection="/education" />
-        <HeaderOptions title="contact" LinkToSection="/contact" />
+        <HeaderOptions onClick={dropDown} title="about" LinkToSection="/about" />
+        <HeaderOptions onClick={dropDown} title="skills" LinkToSection="/skills" />
+        <HeaderOptions onClick={dropDown} title="experience" LinkToSection="/experience" />
+        <HeaderOptions onClick={dropDown} title="projects" LinkToSection="/projects" />
+        <HeaderOptions onClick={dropDown} title="education" LinkToSection="/education" />
+        <HeaderOptions onClick={dropDown} title="contact" LinkToSection="/contacts" />
       </div>
 
     </div>
