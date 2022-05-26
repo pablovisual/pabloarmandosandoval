@@ -21,13 +21,49 @@ interface List {
 export const projectList: List[] = [
   {
     props: {
+      date: '05/24/2022',
+      className: 'vertical-timeline-element--project',
+      contentStyle: { background: 'white', color: 'black', borderTop: "6px solid rgb(47, 216, 29)", borderRadius: "1rem" },
+      contentArrowStyle: { borderRight: '7px solid white' },
+      iconStyle: { background: 'rgb(128, 255, 114)' },
+      icon: <AcademicCapIcon className="text-white" />,
+      key: 1,
+    },
+
+    title: "Ai-prompt-response-bot",
+    subtitle: "Shopify intern challenge",
+    content: 'Responder',
+    tools: [ 
+      'Material-UI', 
+      'OpenAI API', 
+      "React", 
+      'React-Icons'
+    ],
+
+    sourceButtons: {
+      sources: [
+        {
+          Title: "Source Code",
+          Link: "https://github.com/pablovisual/OpenAIPrompts"
+        },
+
+        {
+          Title: "View Demo",
+          Link: "https://open-ai-prompts.vercel.app/"
+        }
+      ],
+    }
+  },
+
+  {
+    props: {
       date: '04/20/2021',
       className: 'vertical-timeline-element--project',
       contentStyle: { background: 'white', color: 'black', borderTop: "6px solid rgb(47, 216, 29)", borderRadius: "1rem" },
       contentArrowStyle: { borderRight: '7px solid  white' },
       iconStyle: { background: 'rgb(128, 255, 114)' },
       icon: <VscFileCode className="text-white" />,
-      key: 1,
+      key: 2,
     },
 
     title: 'Hulu v2',
@@ -50,13 +86,13 @@ export const projectList: List[] = [
 
         {
           Title: "View Demo",
-          Link: "https://hulu2-0-snowy.vercel.app/",
+          Link: "https://huluversion2.vercel.app/",
         },
       ],
     }
   },
 
-  {
+  /*{
     props: {
       date: '04/05/2021',
       className: 'vertical-timeline-element--work',
@@ -88,11 +124,11 @@ export const projectList: List[] = [
         }
       ],
     },
-  },
+  },*/
 
   {
     props: {
-      date: 'In Progress',
+      date: '04/05/2021',
       className: 'vertical-timeline-element--project',
       contentStyle: { background: 'white', color: 'black', borderTop: "6px solid rgb(47, 216, 29)", borderRadius: "1rem" },
       contentArrowStyle: { borderRight: '7px solid  white' },
@@ -124,9 +160,9 @@ export const projectList: List[] = [
     },
   },
 
-  {
+  /*{
     props: {
-      date: 'In Progress',
+      date: '02/05/2021',
       className: 'vertical-timeline-element--project',
       contentStyle: { background: 'white', color: 'black', borderTop: "6px solid rgb(47, 216, 29)", borderRadius: "1rem" },
       contentArrowStyle: { borderRight: '7px solid  white' },
@@ -156,9 +192,9 @@ export const projectList: List[] = [
         }
       ],
     },
-  },
+  },*/
 
-  {
+  /*{
     props: {
       date: 'In Progress',
       className: 'vertical-timeline-element--project',
@@ -224,9 +260,9 @@ export const projectList: List[] = [
         }
       ],
     },
-  },
+  },*/
 
-  {
+  /*{
     props: {
       date: '12/08/2020',
       className: 'vertical-timeline-element--project',
@@ -234,7 +270,7 @@ export const projectList: List[] = [
       contentArrowStyle: { borderRight: '7px solid  white' },
       iconStyle: { background: 'rgb(128, 255, 114)', color: '#fff' },
       icon: <VscFileCode className="text-white" />,
-      key: 7,
+      key: 5,
     },
     title: 'Amazon Clone',
     subtitle: 'Online Course',
@@ -258,7 +294,7 @@ export const projectList: List[] = [
         }
       ],
     },
-  },
+  },*/
 
   {
     props: {
@@ -268,7 +304,7 @@ export const projectList: List[] = [
       contentArrowStyle: { borderRight: '7px solid  white' },
       iconStyle: { background: 'rgb(128, 255, 114)', color: '#fff' },
       icon: <VscFileCode className="text-white" />,
-      key: 8,
+      key: 4,
     },
     title: "My website",
     subtitle: 'First one I published.',
@@ -295,7 +331,7 @@ export const projectList: List[] = [
     },
   },
 
-  {
+  /*{
     props: {
       date: 'In Progress',
       className: 'vertical-timeline-element--education',
@@ -326,5 +362,5 @@ export const projectList: List[] = [
         }
       ],
     },
-  },
+  },*/
 ]

@@ -40,6 +40,7 @@ interface Skills {
   programmingLanguages: skill[];
   databases: skill[];
   versionControl: skill[];
+  packageManager: skill[];
 }
 
 export const skills: Skills = {
@@ -55,21 +56,21 @@ export const skills: Skills = {
       link: "https://www.w3schools.com/css/",
       svgAltText: "CSS 3",
       svgSrc: CSS3,
-      skillName: "CSS3",
+      skillName: "CSS",
     },
 
-    {
+    /*{
       link: "https://flutter.dev/",
       svgAltText: "Flutter",
       svgSrc: FLUTTER,
       skillName: "Flutter",
-    },
+    },*/
 
     {
       link: "https://www.w3schools.com/html/",
       svgAltText: "HTML 5",
       svgSrc: HTML5,
-      skillName: "HTML5",
+      skillName: "HTML",
     },
 
     {
@@ -100,19 +101,19 @@ export const skills: Skills = {
       skillName: "React.JS",
     },
 
-    {
+    /*{
       link: "https://reacttraining.com/react-router/",
       svgAltText: "React Router",
       svgSrc: REACT_ROUTER,
       skillName: "React Router",
-    },
+    },*/
 
-    {
+    /*{
       link: "https://redux.js.org/",
       svgAltText: "Redux",
       svgSrc: REDUX,
       skillName: "Redux",
-    },
+    },*/
 
     {
       link: "https://styled-components.com/",
@@ -136,7 +137,7 @@ export const skills: Skills = {
     },
   ],
   backend: [
-    {
+    /*{
       link: "https://expressjs.com/",
       svgAltText: "Express",
       svgSrc: EXPRESS,
@@ -148,7 +149,7 @@ export const skills: Skills = {
       svgAltText: "Firebase",
       svgSrc: FIREBASE,
       skillName: "Firebase",
-    },
+    },*/
 
     {
       link: "https://nodejs.org/en/",
@@ -186,45 +187,45 @@ export const skills: Skills = {
       link: "https://www.cplusplus.com/",
       svgAltText: "C++",
       svgSrc: CPLUSPLUS,
-      skillName: "C++",
+      skillName: "C++ <fluent>",
     },
 
-    {
+    /*{
       link: "https://dart.dev/",
       svgAltText: "Dart",
       svgSrc: DART,
       skillName: "Dart",
-    },
+    },*/
 
     {
       link: "https://www.java.com/en/",
       svgAltText: "Java",
       svgSrc: JAVA,
-      skillName: "Java"
+      skillName: "Java <beginner>"
     },
 
     {
       link: "https://www.javascript.com/",
       svgAltText: "JavaScript",
       svgSrc: JAVASCRIPT,
-      skillName: "JavaScript",
+      skillName: "JavaScript <intermediate>",
     },
 
     {
       link: "https://www.python.org/",
       svgAltText: "Python",
       svgSrc: PYTHON,
-      skillName: "Python",
+      skillName: "Python <beginner>",
     },
   ],
 
   databases: [
-    {
+    /*{
       link: "https://firebase.google.com/",
       svgAltText: "Firebase",
       svgSrc: FIREBASE,
       skillName: "Firebase",
-    },
+    },*/
 
     {
       link: "https://www.mongodb.com/",
@@ -243,17 +244,19 @@ export const skills: Skills = {
     },
 
     {
-      link: "https://www.npmjs.com/",
-      svgAltText: "NPM",
-      svgSrc: NPM,
-      skillName: "NPM",
-    },
-
-    {
       link: "https://en.wikipedia.org/wiki/Cmd.exe",
       svgAltText: "Terminal",
       svgSrc: TERMINAL,
       skillName: "Terminal"
     },
   ],
+
+  packageManager: [
+    {
+      link: "https://www.npmjs.com/",
+      svgAltText: "NPM",
+      svgSrc: NPM,
+      skillName: "NPM",
+    },
+  ]
 }
