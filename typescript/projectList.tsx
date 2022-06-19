@@ -49,7 +49,7 @@ export const projectList: List[] = [
 
         {
           Title: "View Demo",
-          Link: "https://open-ai-prompts.vercel.app/"
+          Link: "#"
         }
       ],
     }
