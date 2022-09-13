@@ -201,7 +201,7 @@ export const skills: Skills = {
       link: "https://www.java.com/en/",
       svgAltText: "Java",
       svgSrc: JAVA,
-      skillName: "Java <beginner>"
+      skillName: "Java <intermediate>"
     },
 
     {
